@@ -12,7 +12,7 @@ const Navbar = ({ onHomeClick }) => {
     <nav className="navbar">
       {/* <div className="navbar-brand" onClick={handleHomeClick}>UlluHub</div> */}
       <Link to="/" className="navbar-brand " onClick={handleHomeClick}> <div class="logo">
-        <span class="ullu">Adult</span><span class="hub">Hub</span>
+        <span class="ullu">18+</span><span class="hub">Hub</span>
     </div></Link>
       <div className="navbar-links">
         <Link to="/" className="navbar-link" onClick={handleHomeClick}>Home</Link>
