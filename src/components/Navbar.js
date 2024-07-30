@@ -16,7 +16,7 @@ const Navbar = ({ onHomeClick }) => {
     </div></Link>
       <div className="navbar-links">
         <Link to="/" className="navbar-link" onClick={handleHomeClick}>Home</Link>
-        <Link to="/actresses" className="navbar-link" onClick={handleHomeClick}>Top Stars</Link>
+        {/* <Link to="/actresses" className="navbar-link" onClick={handleHomeClick}>Top Stars</Link> */}
       <a href="https://t.me/ullu_exclusive" className="navbar-link" target="_blank" rel="noopener noreferrer">Telegram</a>
       </div>
     </nav>
