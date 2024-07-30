@@ -1,0 +1,90 @@
+.movie-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin-bottom: 20px; */
+  box-shadow: 0 4px 8px rgb(161 57 57 / 20%);
+  /* width: 20%; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-thumbnail-container {
+  position: relative;
+}
+
+.movie-card-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.movie-duration {
+  position: absolute;
+  bottom: -3px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.75rem; /* Adjust font size as needed */
+}
+
+.hd-label {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.75rem; /* Adjust font size as needed */
+}
+
+.movie-card-content {
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.movie-card-content h3 {
+  width: 9rem;
+  margin: 0 0 8px ;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.movie-card-content p {
+  margin: 0 0 15px;
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+
+}
+
+.movie-card-buttons {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: space-around; /* Ensures buttons are spaced evenly */
+  gap: 10px; /* Adds space between the buttons */
+}
+
+.movie-button {
+  background: #ff007f;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+  flex: 1; /* Ensures buttons take up equal space */
+  max-width: 32%; /* Prevents buttons from becoming too wide */
+}
+
+.movie-button:hover {
+  background: #e60073;
+}
+

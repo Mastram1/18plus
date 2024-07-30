@@ -1,0 +1,37 @@
+/* src/ActressList.css */
+.actress-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: space-around;        }
+        
+        .actress {
+          text-align: center;
+          width: 240px;
+          transition: transform 0.2s;
+        }
+        .actress a{
+          text-decoration: none;
+        }
+        .actress a p{
+          border-radius: 0 0 10px 10px;
+          background-color: rgba(161, 200, 255, 0.21);
+          color: black;
+          font-size: 22px;
+          padding: 10px 0 10px 0;
+          font-weight: bold;
+          
+        }
+        
+        .actress-image {
+          width: 240px;
+          height: 325px;
+          border-radius: 10px;
+          /* transition: transform 0.2s; */
+          border-radius: 10px 10px 0 0;
+        }
+        
+        .actress:hover {
+          transform: scale(1.1);
+        }
+        
