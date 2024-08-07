@@ -36,7 +36,7 @@ const MoviePlayer = ({ movies }) => {
       <h4>{selectedMovie.title}</h4>
       <iframe src={selectedMovie.iframeSrc} title={selectedMovie.title} allowFullScreen></iframe>
       <div className="movie-player-buttons">
-        <button className="movie-button-download" onClick={() => window.open(selectedMovie.shortenUrl, '_blank') }>
+        <button className="movie-button-download" onClick={() => window.open(selectedMovie.downloadUrl, '_blank') }>
           Download
         </button>
       </div>
